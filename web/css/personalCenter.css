@@ -1,0 +1,167 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+body {
+    min-width: 700px;
+}
+
+
+ul.container {
+    list-style: none;
+    width: calc(100% - 80px);
+    margin: 65px auto 20px auto;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+
+ul.container li.title {
+    /*font-family: yuppy, serif;*/
+    color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #0884CF;
+    border: 2px solid #0076C7;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .5);
+}
+
+li.content {
+    padding: 20px;
+}
+
+button {
+    width: 90px;
+    height: 32px;
+    font-size: 15pt;
+    margin: 10px 0;
+    background: linear-gradient(#48C4FF, #0884FF, #48C4FF);
+    color: #FFFFFF;
+    border: 1px solid #56707f;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background: linear-gradient(#48C4FF, #48C4FF, #0884FF);
+}
+
+button.disabled {
+    color: lightgrey;
+    background: #0884CF;
+}
+
+button.disabled:hover {
+    background: #0884CF;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 300px;
+    font-size: 15pt;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #56707f;
+    display: inline-block;
+    background: #fff;
+}
+
+span#result {
+    font-size: 13pt;
+    margin-left: 20px;
+    color: #C12E2A;
+}
+
+input:focus {
+    background-color: #E0E0E0;
+}
+
+ul.container ul.friends a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul.container ul.friends {
+    list-style: none;
+}
+
+ul.container ul.friends strong.username {
+    font-size: 30pt;
+}
+
+ul.container ul.friends p.email::before {
+    content: "邮箱： ";
+}
+
+p.login_time::before {
+    content: "注册时间： ";
+}
+
+ul.container ul.friends li {
+    display: block;
+    padding: 20px 30px;
+}
+
+ul.container ul.friends span.user_info {
+    margin-left: 15px;
+    width: calc(100% - 320px);
+    min-height: 100px;
+}
+
+ul.container ul.friends li:nth-child(2n+1) {
+    background: #FFFFFF;
+}
+
+ul.container ul.friends li:nth-child(2n) {
+    background: #E8E8E8;
+}
+
+/*ul.container ul.friends li:hover*/
+/*{*/
+/*    background: #D0D0D0;*/
+/*}*/
+ul.container ul.friends span {
+    display: inline-block;
+}
+
+
+ul.container ul.friends button.accept {
+    width: 90px;
+    height: 32px;
+    font-size: 15pt;
+    margin: 10px 0;
+    background: linear-gradient(#6EF376, #4ED356, #6EF376);
+    color: #FFFFFF;
+    border: 1px solid #56707f;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+ul.container ul.friends button.accept:hover {
+    background: linear-gradient(#6EF376, #6EF376, #4ED356);
+}
+
+ul.container ul.friends button.refuse {
+    width: 90px;
+    height: 32px;
+    font-size: 15pt;
+    background: linear-gradient(#D9534F, #C12E2A, #D9534F);
+    color: #FFFFFF;
+    border: 1px solid #56707f;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+ul.container ul.friends button.refuse:hover {
+    background: linear-gradient(#D9534F, #D9534F, #C12E2A);
+}

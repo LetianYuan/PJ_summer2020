@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(footer.css);
+@import url(fieldset.css);
+
+fieldset {
+    height: 660px;
+}
+
+footer.copyright {
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+}
+
+#password_safety_img {
+    width: 18px;
+    height: 18px;
+}
+
+#password_safety_word {
+    font-size: 15pt;
+    font-weight: bold;
+}

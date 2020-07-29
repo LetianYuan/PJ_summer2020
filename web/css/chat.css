@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+textarea#message {
+    height: 80px;
+    width: calc(100% - 14px);
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0;
+    border-color: #abd7f3;
+    outline: none;
+}
+
+div#console {
+    background: white;
+    border-color: #abd7f3;
+    border-width: 5px;
+    border-style: solid;
+    height: 320px;
+    overflow-y: scroll;
+}
+
+p.user_info {
+    font-size: 20px;
+    color: #0884FF;
+}
+
+span.time {
+    font-size: 12px;
+    color: gray;
+}
+
+p.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-wrap: break-word;
+}
+
+p.system {
+    color: gray;
+    text-align: center;
+}
+
+p.mine {
+    text-align: right;
+}
+
+p.user_info[class~='mine'] {
+    color: #4ed356;
+}

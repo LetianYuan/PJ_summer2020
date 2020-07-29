@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PJ:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PJ_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PJ_summer2020/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PJ_summer2020" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/Develop Tools/commons-beanutils-1.9.4/commons-beanutils-1.9.4.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-dbcp2-2.7.0/commons-dbcp2-2.7.0.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-logging-1.2/commons-logging-1.2.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-pool2-2.8.0/commons-pool2-2.8.0.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-dbutils-1.7/commons-dbutils-1.7.jar" />
+          <element id="file-copy" path="D:/Develop Tools/mysql-connector-java-8.0.20.jar" />
+          <element id="file-copy" path="D:/Develop Tools/json-20200518.jar" />
+          <element id="file-copy" path="D:/Develop Tools/apache-tomcat-9.0.36/bin/tomcat-juli.jar" />
+          <element id="file-copy" path="D:/Develop Tools/apache-tomcat-9.0.36/lib/websocket-api.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-io-2.7/commons-io-2.7.jar" />
+          <element id="file-copy" path="D:/Develop Tools/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
